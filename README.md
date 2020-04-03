@@ -3,7 +3,7 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> This script installs the CS: S textures that are needed in most Garry`s Mod maps with just one click.
+> This script installs the CS:S textures that are needed in most Garry`s Mod maps with just one click.
 
 ## Install
 
