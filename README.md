@@ -8,7 +8,7 @@
 ## Install
 
 ```sh
-Just execute the .bat file
+Just execute the GMod Fix CSS.bat file
 ```
 
 ## Author
