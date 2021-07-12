@@ -6,7 +6,7 @@
 @cd bin
 @echo Downloading CSS Textures for GMod
 @echo.
-@curl --output CSS.zip https://downloads.gmodcontent.com/css-content-gmodcontent.zip
+@curl --output CSS.zip https://codeload.github.com/bouletmarc/css_content/zip/refs/heads/master
 @move CSS.zip %~dp0
 goto 2step 
 
@@ -25,7 +25,7 @@ goto is1
 :isa1
 @cd C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\addons\
 @md CSS_Game_Content
-@xcopy /s /i "%~dp0\css-content-gmodcontent" "C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\addons\CSS_Game_Content"
+@xcopy /s /i "%~dp0\css_content-master" "C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\addons\CSS_Game_Content"
 goto end
 
 :is2 
@@ -34,7 +34,7 @@ goto end
 :isa2
 @cd D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\
 @md CSS_Game_Content
-@xcopy /s /i %~dp0\css-content-gmodcontent D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\CSS_Game_Content
+@xcopy /s /i %~dp0\css_content-master D:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\addons\CSS_Game_Content
 goto end
 
 :ism
@@ -44,7 +44,7 @@ SET /P folderName=Please enter the directory where Garry's Mod is located (X:\St
 :isam
 @cd %folderName%\garrysmod\addons%
 @md CSS_Game_Content
-@xcopy /s /i %~dp0\css-content-gmodcontent %folderName%\garrysmod\addons\CSS_Game_Content\%
+@xcopy /s /i %~dp0\css_content-master %folderName%\garrysmod\addons\CSS_Game_Content\%
 goto end
 
 :end
