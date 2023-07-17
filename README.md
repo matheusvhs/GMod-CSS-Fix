@@ -16,7 +16,7 @@ Just execute the GMod Fix CSS.bat file
 
 ## Author
 
-👤 **Matheus Vieira**
+👤 **Matheus Vieira Honorio de Souza**
 
 * Github: [@matheusvhs](https://github.com/matheusvhs)
 
